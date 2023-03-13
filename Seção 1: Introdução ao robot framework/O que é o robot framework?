@@ -1,0 +1,78 @@
+O que é?
+Framework genérico que permite automação de qualquer tipo de sistema e é baseado em keyword-driven que abstrai a camada de programação em baixo nível.
+A forma que escreve os testes automatizados é na forma keyword-driven.
+Ele tem código aberto ele é open source e multiplataforma.
+Robot framework também automatiza processos (RPA).
+Possui sintaxe de dados tabular fácil de usar e permite que usuários utilizem e criem bibliotecas em Python (se precisar).
+O robot framework interage:
+1) Testes:
+Web;
+API;
+Mobile;
+GUI.
+2) Estilos
+Keyword-driven (formato procedural);
+Data-driven (tabelas de dados);
+Gherkin (BDD) e já são a documentação;
+3) Execução
+Local/debug;
+Execução em CI/CD;
+Execução em Docker;
+
+Arquitetura do Robot
+1) Começa escrevendo os dados do teste que é as keywords;
+2) Robot interpreta as keywords;
+3) E o robot vai procurar na libraries as keywords;
+4) São as libraries que vão interagir com o sistema que esta sendo testado.
+
+Robot foi feito para?
+Testes de aceitação (funcionais e sistema);
+Interagir com diversos tipos de sistemas;
+Automatizadores não muito técnicos;
+Tirar o foco da programação e focar nos testes de sistemas;
+RPA.
+
+Robot framework atende bem:
+Testes funcionais de Back-end e UI (incluindo Visual Regression);
+Times de stacks híbridas;
+Times com QAs iniciando em automação de testes;
+Projeto com automação de diferentes tipos de sistema.
+
+Pontos fortes:
+Open source;
+Python;
+Documentação;
+Visual Code com apenas um único plugin;
+Integrações por listeners.
+https://github.com/robotframework
+
+Robot framework não serve:
+Testes unitários e de componentes;
+Testes de performance;
+Times com profissionais muito técnicos que preferem testar com a stack utilizada;
+Quem prefere trabalhar com a IDE própria do framework.
+
+Libraries de interação
+SeleniumLibrary (web testing);
+RequestsLibrary (Rest testing);
+AppiumLibrary (mobile testing);
+Autolt (desktop testing);
+SudsLibrary (SOAP testing);
+WhiteLibrary (desktop testing);
+SwingLibrary (Java desktop testing);
+SapGuiLibrary (SAP desktop testing);
+veja mais em: https://robotframework.org/#libraries
+pode procurar libraries no pypi.org
+
+Libraries de utilidade
+Builtln (utilidades do robot);
+Collections (dicionários e listas);
+XML;
+DatabaseLibrary;
+String;
+DateTime;
+OperatingSystem (arquivos e diretórios do S.O.)
+IMAPLibrary (e-mail);
+FakerLibrary (geração de massa);
+git da library = github.com/robotframework/SeleniumLibrary/
+blog: https://robotizandotestes.blogspot.com/

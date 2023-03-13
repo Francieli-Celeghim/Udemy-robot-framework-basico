@@ -1,0 +1,13 @@
+O que é?
+Keyword-driven é uma abordagem de desenvolvimento de testes automatizados utilizando palavras-chave para
+descrever e implementar os passos de teste.
+Keyword representam um conjunto de ações em alto nível. O automatizador não tem preocupação
+com nenhuma linguagem de programção.
+Um conjunto de keywordsde ação é chamado de Library.
+Em modo avançado o automatizador pode também programar suas próprias keywords de ação de preferência em Python.
+
+Vantagens da keyword
+Linguagem mais humanizda;
+Mais fácil de ler e entender os testes;
+Pode-se escrever em formato procedural ou Gherkin;
+Um conjunto bem escrito de keywords se tornam a documentação de uma funcionalidade (passo-a-passo).
