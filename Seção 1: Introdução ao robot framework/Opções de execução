@@ -1,0 +1,7 @@
+robot --help = vai mostar opções que você pode passar na linha de comando;
+robot -i + qual argumento você quer executar. Exemplo:
+robot -i menus amazon_testes.robot = incluir tag menus;
+robot -e = excluir tags;
+robot -d resultados + nome do teste = vai colocar todos os arquivos de logs dentro da pasta resultados.
+robot -v BROWSER:firefox -i menus nome do teste que deseja executar = vai substituir chrome por firefox.
+robot -d ./resultados -i busca_produtos amazon_testes_gherkin_bdd.robot
